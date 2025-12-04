@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face{
+  font-family: Unica77;
+  src: url('../fonts/Unica77LLGrk-ExtraBlackItalic.otf');
+}
+
+.container{
+  font-family: Unica77;
+  display: flex;
+}
+
+#ui{
+background-color: rgb(30, 224, 0);
+  width: 20vw;
+  height: 100vh;
+
+}
+
+h1{
+font-size: 3em;
+}
+
+label{
+  font-size: 1.5em;
+}
+
+.components{
+  padding: 1em;
+  background-color: rgb(172, 172, 172);
+  display: flex;
+align-content: space-between;
+}
+
+#canvasWrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80vw;
+  height: 100vh;
+  background-color: rgb(79, 132, 0);
+}
